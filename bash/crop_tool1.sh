@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --job-name=crop
 #SBATCH --output=%x-%j.out
-#SBATCH --mail-user=peter.rodriguez@mail.utoronto.ca
 #SBATCH --mail-type=ALL
 
 module load  StdEnv/2023  gcc/12.3  udunits/2.2.28  hdf/4.2.16  gdal/3.7.2  r/4.3.1 # adjust package versions
